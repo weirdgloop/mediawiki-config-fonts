@@ -1,0 +1,9 @@
+I copied all these out of /usr/share/truetype/* from an Ubuntu app server.
+This dir was used as the GDFONTPATH, possibly for ploticus for timelines,
+but didn't exist. WTF?
+
+... plus FreeSans.ttf which is what EasyTimeline hardcodes. :P
+
+We can presumably dump it if we kill ploticus running from app servers.
+
+-- brion 2008-12-09
