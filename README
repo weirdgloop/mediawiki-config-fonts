@@ -1,9 +1,8 @@
-I copied all these out of /usr/share/truetype/* from an Ubuntu app server.
-This dir was used as the GDFONTPATH, possibly for ploticus for timelines,
-but didn't exist. WTF?
+These three fonts are used by the EasyTimeline extension (ploticus).
 
-... plus FreeSans.ttf which is what EasyTimeline hardcodes. :P
+At build time, they are copied into the Shellbox container that timelines
+and ploticus are executed in.
 
-We can presumably dump it if we kill ploticus running from app servers.
-
--- brion 2008-12-09
+This repository was formerly deployed as a submodule of
+operations/mediawiki-config onto every appserver, but was removed after
+the migration to Shellbox.
